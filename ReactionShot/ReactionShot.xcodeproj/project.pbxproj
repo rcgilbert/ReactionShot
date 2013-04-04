@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F2F8C56170BE45700590968 /* simpsons.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F2F8C55170BE45700590968 /* simpsons.jpg */; };
 		7FDCE9BD170BDB9F006F3718 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FDCE9BC170BDB9F006F3718 /* UIKit.framework */; };
 		7FDCE9BF170BDB9F006F3718 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FDCE9BE170BDB9F006F3718 /* Foundation.framework */; };
 		7FDCE9C1170BDB9F006F3718 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FDCE9C0170BDB9F006F3718 /* CoreGraphics.framework */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F2F8C55170BE45700590968 /* simpsons.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = simpsons.jpg; sourceTree = "<group>"; };
 		7FDCE9B9170BDB9F006F3718 /* ReactionShot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactionShot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FDCE9BC170BDB9F006F3718 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7FDCE9BE170BDB9F006F3718 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -84,6 +86,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F2F8C54170BE43200590968 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7F2F8C55170BE45700590968 /* simpsons.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		7FDCE9B0170BDB9F006F3718 = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +140,7 @@
 		7FDCE9C3170BDB9F006F3718 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7F2F8C54170BE43200590968 /* images */,
 				7FDCE9C4170BDB9F006F3718 /* ReactionShot-Info.plist */,
 				7FDCE9C5170BDB9F006F3718 /* InfoPlist.strings */,
 				7FDCE9C8170BDB9F006F3718 /* main.m */,
@@ -236,6 +247,7 @@
 				7FDCE9D1170BDB9F006F3718 /* Default@2x.png in Resources */,
 				7FDCE9D3170BDB9F006F3718 /* Default-568h@2x.png in Resources */,
 				7FDCE9D6170BDB9F006F3718 /* MainStoryboard.storyboard in Resources */,
+				7F2F8C56170BE45700590968 /* simpsons.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +465,7 @@
 				7FDCE9F3170BDB9F006F3718 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7FDCE9F4170BDB9F006F3718 /* Build configuration list for PBXNativeTarget "ReactionShotTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +474,7 @@
 				7FDCE9F6170BDB9F006F3718 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
